@@ -2,7 +2,7 @@ from PIL import Image
 from transformers import ViTFeatureExtractor, ViTForImageClassification
 import torch
 from torchvision import transforms
-
+#thu mmot xiu
 feature_extractor = ViTFeatureExtractor.from_pretrained('google/vit-base-patch16-224')
 model = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224')
 
